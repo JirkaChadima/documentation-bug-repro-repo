@@ -1,13 +1,11 @@
 // @flow
 
-export class Klass {
-  /**
-   * Lorem ipsum
-   *
-   * @param segment Lorem ipsum
-   * @type boolean
-   */
-  methodWithOptionalArgument (segment?: string): boolean {
-    return false;
-  }
+/**
+ * Lorem ipsum
+ *
+ * @param segment Lorem ipsum
+ * @type boolean
+ */
+function methodWithOptionalArgument (segment?: string): boolean {
+  return false;
 }
