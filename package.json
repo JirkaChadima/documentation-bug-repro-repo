@@ -1,0 +1,41 @@
+{
+  "name": "documentation-repro-repo",
+  "version": "0.0.0",
+  "description": "Repro repo",
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint src",
+    "docs": "rimraf docs && mkdir docs && documentation build src/** -f md -o docs/reference.md"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "documentation": "^10.1.0",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.97.0",
+    "rimraf": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
