@@ -2,21 +2,8 @@
 
 ### Table of Contents
 
--   [WTLibsError][1]
+-   [methodWithOptionalArgument][1]
     -   [Parameters][2]
--   [methodWithOptionalArgument][3]
-    -   [Parameters][4]
-
-## WTLibsError
-
-**Extends Error**
-
-Generic WT Libs error.
-
-### Parameters
-
--   `message`  
--   `originalError`  
 
 ## methodWithOptionalArgument
 
@@ -24,18 +11,14 @@ Lorem ipsum
 
 ### Parameters
 
--   `segment` **[string][5]** Lorem ipsum
+-   `segment` **[string][3]** Lorem ipsum
 
-Returns **[boolean][6]** 
+Returns **[boolean][4]** 
 
-[1]: #wtlibserror
+[1]: #methodwithoptionalargument
 
 [2]: #parameters
 
-[3]: #methodwithoptionalargument
+[3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[4]: #parameters-1
-
-[5]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
-
-[6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+[4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
